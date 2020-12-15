@@ -4,6 +4,14 @@
 
     <application android:label="TestAccessibility">
 
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <service
             android:name=".MyAccessibilityService"
             android:label="My accessibility service"
