@@ -1,7 +1,13 @@
 # testaccessibility
 
+> The issue has been fixed and it will become be available in a future Android release.
+> 
+[https://issuetracker.google.com/issues/175604408](https://issuetracker.google.com/issues/175604408)
+
+## Problem:
+
 When the AccessibilityService is used with `StrictMode.VmPolicy.Builder().detectAll()` it shows the following StrictMode violation on start:
-## Log
+## Log:
 ```
 2020-12-15 13:49:18.998 491-518/? I/ActivityManager: Start proc 7928:my.TestAccessibility/u0a157 for service {my.TestAccessibility/my.testaccessibility.MyAccessibilityService}
 2020-12-15 13:49:19.285 7928-7928/my.TestAccessibility D/NetworkSecurityConfig: No Network Security Config specified, using platform default
